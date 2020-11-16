@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Lato;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#peopleHeader {
+    margin-top: 20px;
+}
+
+#people {
+    text-align: left;
+    margin-left: 200px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    background: purple;
+    margin: 15px;
+    border: solid black 1px;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#teamContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#teamContainer div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
